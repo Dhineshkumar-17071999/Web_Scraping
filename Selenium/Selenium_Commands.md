@@ -22,11 +22,11 @@
 
 ##### Example :
 
-**<article class = "main-article">
+<article class = "main-article">
 	<h1> Titanic (1997) </h1>
 	<p class = "plot"> 84 years latter .. </p>
 	<div class = "full-script"> 13 meters. You .. </div>
-</article>**
+</article>
 
 ##### Commands : 
 	1. driver.find_element_by_class_name('main-article')
