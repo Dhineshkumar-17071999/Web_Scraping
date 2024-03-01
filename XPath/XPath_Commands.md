@@ -38,9 +38,9 @@ CSS and XPath have some similarities in their syntax.
 	
 	
 ##### Special Characters
-	1. / : Select <u>the children</u> from the node set on the left side of this character.
+	1. / : Select the children from the node set on the left side of this character.
 	
-	2. // : Specifies that the matching node set should be located ***at any level*** within the document.
+	2. // : Specifies that the matching node set should be located at any level within the document.
 	
 	3. .(dot) : Specifies the current context should be used (refers to **present node**).
 	
