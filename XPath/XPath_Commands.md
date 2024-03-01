@@ -38,17 +38,25 @@ CSS and XPath have some similarities in their syntax.
 	
 	
 ##### Special Characters
-	1. / : Select ***the children*** from the node set on the left side of this character.
-	2. // : Specifies that the matching node set should be located ***at any level*** within the document
-	3. .(dot) : Specifies the current context should be used (refers to **present node**)
-	4. ..(double dot) : Refers to a **parent** node
-	5. * : A wildcard character that **selects all elements** or attributes regardless of names
+	1. / : Select ****the children**** from the node set on the left side of this character.
+	
+	2. // : Specifies that the matching node set should be located ***at any level*** within the document.
+	
+	3. .(dot) : Specifies the current context should be used (refers to **present node**).
+	
+	4. ..(double dot) : Refers to a **parent** node.
+	
+	5. * : A wildcard character that **selects all elements** or attributes regardless of names.
+	
 	6. ./* : Select all the chidren nodes considering the current context.
-	7. @ : Select an attribute
-	8. () : Grouping an XPath expression
+	
+	7. @ : Select an attribute.
+	
+	8. () : Grouping an XPath expression.
+	
 	9. [n] : Indicates that a node with index "n" should be selected
 	
 ##### Examples
 	1. //h1/.
 	2. //h1/..
-	3. 
+	3. //h1/*
