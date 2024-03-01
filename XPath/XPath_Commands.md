@@ -42,11 +42,11 @@ CSS and XPath have some similarities in their syntax.
 	
 	2. // : Specifies that the matching node set should be located at any level within the document.
 	
-	3. .(dot) : Specifies the current context should be used (refers to **present node**).
+	3. .(dot) : Specifies the current context should be used (refers to present node).
 	
-	4. ..(double dot) : Refers to a **parent** node.
+	4. ..(double dot) : Refers to a parent node.
 	
-	5. * : A wildcard character that **selects all elements** or attributes regardless of names.
+	5. * : A wildcard character that selects all elements or attributes regardless of names.
 	
 	6. ./* : Select all the chidren nodes considering the current context.
 	
